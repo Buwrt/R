@@ -1,0 +1,6 @@
+id,rewardid,rewardnum
+int,string,string
+key1,
+编号,奖励类型,奖励数量
+1,1,200
+2,1;2,1200;6

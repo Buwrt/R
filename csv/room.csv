@@ -1,0 +1,5 @@
+ID,RoomID,BattleID,RoomSeatsX1,RoomSeatsX2,RoomSeatsX3,RoomSeatsX4,RoomSeatsX5,RoomSeatsX6,RoomSeatsX7,RoomSeatsX8,RoomSeatsX9,RoomSeatsX10,RoomSeatsy1,RoomSeatsy2,RoomSeatsy3,RoomSeatsy4,RoomSeatsy5,RoomSeatsy6,RoomSeatsy7,RoomSeatsy8,RoomSeatsy9,RoomSeatsy10,BattleSeatsX1,BattleSeatsX2,BattleSeatsX3,BattleSeatsX4,BattleSeatsX5,BattleSeatsX6,BattleSeatsX7,BattleSeatsX8,BattleSeatsX9,BattleSeatsX10,BattleSeatsy1,BattleSeatsy2,BattleSeatsy3,BattleSeatsy4,BattleSeatsy5,BattleSeatsy6,BattleSeatsy7,BattleSeatsy8,BattleSeatsy9,BattleSeatsy10
+int,int,int,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+key1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+地图ID,房间ID,战斗ID,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+101,1,10,262,595,262,595,262,595,262,595,262,595,756,756,856,856,956,956,1056,1056,1156,1156,2697,2840,2944,2934,2831,2696,2562,2441,2448,2566,2945,2968,3057,3263,3394,3454,3402,3260,3097,2964

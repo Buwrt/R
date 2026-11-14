@@ -1,0 +1,19 @@
+{
+    "version": "2024040901",
+    "platform": "QQ",
+    "gateServer": [
+        "wss://h5impostor1.hhhoo.com:9001",
+        "wss://h5impostor2.hhhoo.com:9001",
+        "wss://h5impostor3.hhhoo.com:9001",
+        "wss://h5impostor4.hhhoo.com:9001",
+        "wss://h5impostor5.hhhoo.com:9001",
+        "wss://h5impostor6.hhhoo.com:9001",
+        "wss://h5impostor7.hhhoo.com:9001",
+        "wss://h5impostor8.hhhoo.com:9001",
+        "wss://h5impostor9.hhhoo.com:9001",
+        "wss://h5impostor10.hhhoo.com:9001"
+    ],
+    "checkServer": [
+        "wss://h5ppreview.jumpw.com:7010"
+    ]
+}

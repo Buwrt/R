@@ -1,0 +1,5 @@
+item_ID,price_max,price_min,weight,weight_num,today_tims,last_time
+int,int,int,string,string,int,int
+key1,
+ID,最大价格,最小价格,随机权重,减免心币数,每日减免心币次数,最后一次减免
+100005,168,0,4|3|2|1,2|3|5|10,5,3

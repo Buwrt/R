@@ -1,0 +1,11 @@
+day,reward_id,reward_num,reward_time,extra_id,extra_num,extra_time
+int,int,string,int,int,int,string
+key1,,,,,,
+天数,奖励ID,奖励数量,奖励时限,额外奖励ID,额外奖励数量,额外奖励时限
+1,1,500,0,2,2,0
+2,1027,1,0,2,2,0
+3,1,800,0,2,2,0
+4,200001,3,0,2,2,0
+5,4007,1,0,2,2,0
+6,1,1200,0,2,2,0
+7,6020,1,0,2,2,0

@@ -1,0 +1,8 @@
+ID,Name,Type,Descript,Picture,Interval,Pivot,Scale
+int,string,int,string,string,int,string,string
+key1,,,,,,,
+角色ID,名,类型,描述,图标,动画帧率,锚点,缩放
+1001,role,1,探险者,res/atlas/actor/human,50,64_96,0.45_0.45
+1002,2号人物,1,探险者,res/atlas/actor/archer02,50,150_170,0.3_0.3
+2001,doorh,3,探险者,res/atlas/actor/doorh,100,0_0,1_1
+2002,doorv,3,探险者,res/atlas/actor/doorv,100,0_0,1_1

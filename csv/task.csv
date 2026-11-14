@@ -1,0 +1,38 @@
+ID,Name,Type,AtOnce,Steps,Pics,,,Time
+int,string,int,int,string,string,,,int
+key1,,0:short/1:long/2:normal/3:emergency,,,,,
+任务ID,名,类型,是否同时完成,,,需要数量,是否有死亡倒计时,任务耗时,任务总数量
+1,command-swipe card,0,0,{"describe":"指挥室：刷卡"},{"picture":"command_card.png"},1,0,6,1
+2,meetingroom-download data,2,0,{"describe":"会议室：下载数据"}|{"describe":"指挥室：上传数据"},{"picture":"download3.png"}|{"picture":"download1.png"},2,0,4,2
+3,meetingroom-empty garbage,1,0,{"describe":"会议室：倾倒垃圾"}|{"describe":"储藏室：倾倒垃圾"},{"picture":"handswitch5.png"}|{"picture":"handswitch5.png"},2,0,4,2
+4,monitor-download data,2,0,{"describe":"监控室：下载数据"}|{"describe":"指挥室：上传数据"},{"picture":"download1.png"}|{"picture":"download1.png"},2,0,4,2
+5,electrical-download data,2,0,{"describe":"电力：下载数据"}|{"describe":"指挥室：上传数据"},{"picture":"download1.png"}|{"picture":"download1.png"},2,0,4,2
+6,electrical-calibrate distributor,0,0,{"describe":"电力：校准配电盘"},{"picture":"electrical_calibrate.png"},1,0,6,1
+7,electrical-divert power to monitor,0,0,{"describe":"电力：将电力转移至监控室"}|{"describe":"监控室：接受转移的电力"},{"picture":"ele1.png"}|{"picture":"ele1.png"},2,0,4,2
+8,electrical-divert power to rightengine,0,0,{"describe":"电力：将电力转移至右引擎"}|{"describe":"右引擎：接受转移的电力"},{"picture":"ele1.png"}|{"picture":"ele1.png"},2,0,4,2
+9,electrical-divert power to leftengine,0,0,{"describe":"电力：将电力转移至左引擎"}|{"describe":"左引擎：接受转移的电力"},{"picture":"ele1.png"}|{"picture":"ele1.png"},2,0,4,2
+10,electrical-divert power to nav,0,0,{"describe":"电力：将电力转移至导航室"}|{"describe":"导航室：接受转移的电力"},{"picture":"ele1.png"}|{"picture":"ele4.png"},2,0,4,2
+11,electrical-divert power to o2,0,0,{"describe":"电力：将电力转移至氧气站"}|{"describe":"氧气站：接受转移的电力"},{"picture":"ele1.png"}|{"picture":"ele2.png"},2,0,4,2
+12,electrical-divert power to toolhouse,0,0,{"describe":"电力：将电力转移至工具房"}|{"describe":"工具房：接受转移的电力"},{"picture":"ele1.png"}|{"picture":"ele1.png"},2,0,4,2
+13,electrical-divert power to lab,0,0,{"describe":"电力：将电力转移至实验室"}|{"describe":"实验室：接受转移的电力"},{"picture":"ele1.png"}|{"picture":"ele1.png"},2,0,4,2
+14,electrical-divert power to plantation,0,0,{"describe":"电力：将电力转移至种植园"}|{"describe":"种植园：接受转移的电力"},{"picture":"ele1.png"}|{"picture":"ele1.png"},2,0,4,2
+15,engine-align engine output,2,0,{"describe":"左引擎：校准引擎输出"}|{"describe":"右引擎：校准引擎输出"},{"picture":"leftengine_output.png"}|{"picture":"rightengine_output.png"},2,0,4,2
+16,Medbay-submit scan,0,0,{"describe":"医务室：提交扫描"},{"picture":"medbay_scan.png"},1,0,6,1
+17,Medbay-inspect sample,1,0,{"describe":"医务室：检查样本"},{"picture":"medbay_sample.png"},1,0,6,1
+18,navigation-chart course,0,0,{"describe":"导航室：绘制航向图"},{"picture":"navigation_chart.png"},1,0,6,1
+19,navigation-download data,2,0,{"describe":"导航室：下载数据"}|{"describe":"指挥室：上传数据"},{"picture":"download4.png"}|{"picture":"download1.png"},2,0,4,2
+20,navigation-stabilize steering,0,0,{"describe":"导航室: 稳定航向"},{"picture":"navigation_stabilize.png"},1,0,6,1
+21,o2-empty chute,0,0,{"describe":"氧气站：清空斜槽"}|{"describe":"储藏室：清空斜槽"},{"picture":"handswitch1.png"}|{"picture":"handswitch5.png"},2,0,4,2
+22,o2-clean filter,0,0,{"describe":"氧气站：清洁过滤器"},{"picture":"oxy_rubbish.png"},1,0,6,1
+23,reactor-start reactor,1,0,{"describe":"反应堆：开启反应堆"},{"picture":"reactor_start.png"},1,0,6,1
+24,reactor-unlock manifolds,2,0,{"describe":"反应堆：解锁主管道"},{"picture":"reactor_unlock.png"},1,0,6,1
+26,lab-analyze experimental result,0,0,{"describe":"实验室：分析实验结果"},{"picture":"analyze_experimental_result.png"},1,0,6,1
+27,storage-fuel engines,1,0,{"describe":"储藏室：填满燃料"}|{"describe":"左引擎：为引擎加燃料"}|{"describe":"储藏室：填满燃料"}|{"describe":"右引擎：为引擎加燃料"},{"picture":"storage_fuel.png"}|{"picture":"leftengine_fuel.png"}|{"picture":"storage_fuel.png"}|{"picture":"rightengine_fuel.png"},4,0,3,4
+28,plantation-water,2,0,{"describe":"种植园：浇水"},{"picture":"plantation_water.png"},1,0,6,1
+29,plantation-open watervalve,2,0,{"describe":"种植园：打开水阀"},{"picture":"open_watervalve.png"},1,0,6,1
+30,plantation-download data,2,0,{"describe":"种植园：下载数据"}|{"describe":"指挥室：上传数据"},{"picture":"download1.png"}|{"picture":"download1.png"},2,0,4,2
+31,fix wiring ele,1,0,{"describe":"储藏室：修理电线"}|{"describe":"指挥室：修理电线"}|{"describe":"会议室：修理电线"}|{"describe":"工具房：修理电线"}|{"describe":"导航室：修理电线"}|{"describe":"电力：修理电线"}|{"describe":"实验室：修理电线"},{"picture":"wire1.png"}|{"picture":"wire1.png"}|{"picture":"wire2.png"}|{"picture":"wire3.png"}|{"picture":"wire4.png"}|{"picture":"electrical_wire.png"}|{"picture":"wire2.png"},3,0,3,7
+1030,oxygen sabotage,3,0,{"describe":"氧气即将耗尽"}|{"describe":"氧气即将耗尽"},{"picture":"oxy_exhaust1.png"}|{"picture":"oxy_exhaust.png"},2,1,5,2
+1031,communication sabotage,3,0,{"describe":"修复通信"},{"picture":"command_card.png"},1,0,6,1
+1032,lights sabotage,3,0,{"describe":"修复光照"},{"picture":"electrical_light.png"},1,0,6,1
+1033,reactor sabotage,3,1,{"describe":"反应堆即将融化"}|{"describe":"反应堆即将融化"},{"picture":"reactor_button1.png"}|{"picture":"reactor_button2.png"}|{"picture":"reactor_button3.png"},2,1,5,2
