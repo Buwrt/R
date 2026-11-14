@@ -1,0 +1,205 @@
+1C749BA5FC279F22C4F04DF24D380E6A_3a909f9cae84965abc7966de0ab9ff52/
+├── 📁 audio/
+│   ├── 📁 step/
+│   │   ├── 📄 step_concrete001.mp3
+│   │   ├── 📄 step_concrete002.mp3
+│   │   ├── 📄 step_concrete003.mp3
+│   │   ├── 📄 step_concrete004.mp3
+│   │   ├── 📄 step_iron001.mp3
+│   │   ├── 📄 step_iron002.mp3
+│   │   ├── 📄 step_iron003.mp3
+│   │   └── 📄 step_iron004.mp3
+│   ├── 📄 alert.mp3
+│   ├── 📄 bgm.mp3
+│   ├── 📄 btncommon.mp3
+│   ├── 📄 click.mp3
+│   ├── 📄 clickstuff.mp3
+│   ├── 📄 countdown.mp3
+│   ├── 📄 doingtask.mp3
+│   ├── 📄 entershop.mp3
+│   ├── 📄 game.js
+│   ├── 📄 game.js.cc
+│   ├── 📄 killbody.mp3
+│   ├── 📄 killscene.mp3
+│   ├── 📄 killscene1.mp3
+│   ├── 📄 loadtask.mp3
+│   ├── 📄 meeting1.mp3
+│   ├── 📄 meeting2.mp3
+│   ├── 📄 printtext.mp3
+│   ├── 📄 rewardcoin.mp3
+│   ├── 📄 sendchat.mp3
+│   ├── 📄 shh.mp3
+│   ├── 📄 shoppingfailed.mp3
+│   ├── 📄 shoppingsucc.mp3
+│   ├── 📄 spidle1.mp3
+│   ├── 📄 spidle2.mp3
+│   ├── 📄 spidle3.mp3
+│   ├── 📄 spidle4.mp3
+│   ├── 📄 status_crew.mp3
+│   ├── 📄 status_impostor.mp3
+│   ├── 📄 switchtab.mp3
+│   ├── 📄 taskend.mp3
+│   ├── 📄 tubeenter.mp3
+│   ├── 📄 tubeexit.mp3
+│   ├── 📄 tubeleft.mp3
+│   ├── 📄 tuberight.mp3
+│   ├── 📄 vote.mp3
+│   ├── 📄 votekill.mp3
+│   ├── 📄 warning.mp3
+│   ├── 📄 win_crew.mp3
+│   └── 📄 win_impostor.mp3
+├── 📁 csv/
+│   ├── 📄 activity_bargaining.csv
+│   ├── 📄 activity_newwelfare_active.csv
+│   ├── 📄 activity_newwelfare_quest.csv
+│   ├── 📄 activity_newwelfare_sign.csv
+│   ├── 📄 activity_wxshare.csv
+│   ├── 📄 actor.csv
+│   ├── 📄 charm.csv
+│   ├── 📄 level.csv
+│   ├── 📄 portrait.csv
+│   ├── 📄 quest.csv
+│   ├── 📄 reportpunish.csv
+│   ├── 📄 reward.csv
+│   ├── 📄 room.csv
+│   ├── 📄 store.csv
+│   ├── 📄 task.csv
+│   └── 📄 worldchat.csv
+├── 📁 loading/
+│   ├── 📄 01.png
+│   ├── 📄 barbg.png
+│   ├── 📄 circle.atlas
+│   ├── 📄 circle.png
+│   ├── 📄 dot.atlas
+│   ├── 📄 dot.png
+│   ├── 📄 gamelogo.png
+│   ├── 📄 heisebg.png
+│   ├── 📄 l_bottom.png
+│   ├── 📄 loading1.png
+│   ├── 📄 loading2.png
+│   ├── 📄 loading3.png
+│   ├── 📄 notice_message.png
+│   └── 📄 sys_confirm.png
+├── 📁 res/
+│   ├── 📁 atlas/
+│   │   ├── 📁 actor/
+│   │   │   ├── 📁 doorh/
+│   │   │   │   ├── 📄 open.atlas
+│   │   │   │   └── 📄 open.png
+│   │   │   └── 📁 doorv/
+│   │   │       ├── 📄 open.atlas
+│   │   │       └── 📄 open.png
+│   │   ├── 📁 effect/
+│   │   │   ├── 📄 circle.atlas
+│   │   │   ├── 📄 circle.png
+│   │   │   ├── 📄 currency1.atlas
+│   │   │   ├── 📄 currency1.png
+│   │   │   ├── 📄 currency2.atlas
+│   │   │   ├── 📄 currency2.png
+│   │   │   ├── 📄 dot.atlas
+│   │   │   └── 📄 dot.png
+│   │   ├── 📄 active.atlas
+│   │   ├── 📄 active.png
+│   │   ├── 📄 bag.atlas
+│   │   ├── 📄 bag.png
+│   │   ├── 📄 battle.atlas
+│   │   ├── 📄 battle.png
+│   │   ├── 📄 battleui.atlas
+│   │   ├── 📄 battleui.png
+│   │   ├── 📄 battleui1.png
+│   │   ├── 📄 chat.atlas
+│   │   ├── 📄 chat.png
+│   │   ├── 📄 email.atlas
+│   │   ├── 📄 email.png
+│   │   ├── 📄 emoji.atlas
+│   │   ├── 📄 emoji.png
+│   │   ├── 📄 getitem.atlas
+│   │   ├── 📄 getitem.png
+│   │   ├── 📄 headbg.atlas
+│   │   ├── 📄 headbg.png
+│   │   ├── 📄 headpic.atlas
+│   │   ├── 📄 headpic.png
+│   │   ├── 📄 history.atlas
+│   │   ├── 📄 history.png
+│   │   ├── 📄 icons.atlas
+│   │   ├── 📄 icons.png
+│   │   ├── 📄 invite.atlas
+│   │   ├── 📄 invite.png
+│   │   ├── 📄 lobby.atlas
+│   │   ├── 📄 lobby.png
+│   │   ├── 📄 lottary.atlas
+│   │   ├── 📄 lottary.png
+│   │   ├── 📄 meeting.atlas
+│   │   ├── 📄 meeting.png
+│   │   ├── 📄 meetingsure.atlas
+│   │   ├── 📄 meetingsure.png
+│   │   ├── 📄 result.atlas
+│   │   ├── 📄 result.png
+│   │   ├── 📄 shop.atlas
+│   │   ├── 📄 shop.png
+│   │   ├── 📄 skimgs.atlas
+│   │   ├── 📄 skimgs.png
+│   │   ├── 📄 skinparts.atlas
+│   │   ├── 📄 skinparts.png
+│   │   ├── 📄 skinsuit.atlas
+│   │   ├── 📄 skinsuit.png
+│   │   ├── 📄 social.atlas
+│   │   ├── 📄 social.png
+│   │   ├── 📄 teaching.atlas
+│   │   ├── 📄 teaching.png
+│   │   ├── 📄 uni.atlas
+│   │   ├── 📄 uni.png
+│   │   ├── 📄 userinfo.atlas
+│   │   ├── 📄 userinfo.png
+│   │   ├── 📄 video.atlas
+│   │   └── 📄 video.png
+│   ├── 📄 game.js
+│   └── 📄 game.js.cc
+├── 📁 share/
+│   ├── 📄 share1.jpg
+│   └── 📄 share2.jpg
+├── 📁 sk/
+│   ├── 📄 admission.png
+│   ├── 📄 admission.sk
+│   ├── 📄 change.png
+│   ├── 📄 change.sk
+│   ├── 📄 ef.png
+│   ├── 📄 ef.sk
+│   ├── 📄 findhead.png
+│   ├── 📄 findhead.sk
+│   ├── 📄 game.js
+│   ├── 📄 game.js.cc
+│   ├── 📄 good.png
+│   ├── 📄 good.sk
+│   ├── 📄 meeting.png
+│   ├── 📄 meeting.sk
+│   ├── 📄 spaceship.png
+│   ├── 📄 spaceship.sk
+│   ├── 📄 taikong.png
+│   ├── 📄 taikong.sk
+│   ├── 📄 warning.png
+│   └── 📄 warning.sk
+├── 📁 uni/
+│   └── 📄 img_notice_bg.png
+├── 📄 fileconfig.json
+├── 📄 game.js
+├── 📄 game.js.cc
+├── 📄 game.json
+├── 📄 map2.png
+├── 📄 obstacle.png
+├── 📄 project.config.json
+├── 📄 serverlist.json
+├── 📄 spaceship.json
+├── 📄 spaceship_4_1.png
+├── 📄 spaceship_4_2.png
+├── 📄 spaceship_4_3.png
+├── 📄 spaceship_4_4.png
+├── 📄 spaceship_4_5.png
+├── 📄 spaceship_4_6.png
+├── 📄 subContext.js
+├── 📄 subContext.js.cc
+├── 📄 undue.zip
+├── 📄 unpack.json
+├── 📄 version.json
+├── 📄 waitingroom.json
+└── 📄 waitingroom.png
