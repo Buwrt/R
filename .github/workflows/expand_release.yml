@@ -1,0 +1,30 @@
+name: expand release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify asset
+        run: |
+          curl -fL --retry 5 --retry-delay 2 --max-time 300 -o /tmp/a.7z "https://github.com/Buwrt/R/releases/download/1.1/1C749BA5FC279F22C4F04DF24D380E6A_3a909f9cae84965abc7966de0ab9ff52.7z"
+          echo "f34b2b3a4bbb7c3e40c672d15d6a94789f85e042f6be271eac86cb2b4bc8966c  /tmp/a.7z" | sha256sum -c -
+      - name: Extract only (never execute)
+        run: |
+          if ! command -v 7z >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y -qq p7zip-full; fi
+          rm -rf .extract_tmp && mkdir -p .extract_tmp
+          7z x -y -o.extract_tmp /tmp/a.7z > /dev/null
+          test -d ".extract_tmp/1C749BA5FC279F22C4F04DF24D380E6A_3a909f9cae84965abc7966de0ab9ff52" || { echo "root folder missing"; find .extract_tmp -maxdepth 2; exit 1; }
+          cp -a ".extract_tmp/1C749BA5FC279F22C4F04DF24D380E6A_3a909f9cae84965abc7966de0ab9ff52/." ./
+          rm -rf .extract_tmp /tmp/a.7z
+          find . -path ./.git -prune -o -type f -print | wc -l
+      - name: Commit and push
+        run: |
+          git config user.name "Buwrt"
+          git config user.email "1510585475@qq.com"
+          git add -A
+          git commit -m "添加 release 1.1 包内全部文件（仅解压，未执行）" || echo "nothing to commit"
+          git push origin HEAD:main
